@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+        body {
+            background: #d5e1ef;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Outfit', sans-serif;
+        }
+        
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: white;
+            border-radius: 4%;
+            padding: 1.2rem 1.2rem 2.5rem 1.2rem;
+        }
+        
+        .content__qr {}
+        
+        .content__qr img {
+            border-radius: 4%;
+            height: 300px;
+        }
+        
+        .content__text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 260px;
+        }
+        
+        .content__text__title {
+            align-self: center;
+        }
+        
+        .content__text__title h1 {
+            font-weight: 700;
+            font-size: 1.5em;
+        }
+        
+        .content__text__text {
+            font-weight: 400;
+            font-size: 15px;
+            color: hsl(220, 15%, 55%);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="content__qr">
+            <img src="./images/image-qr-code.png" alt="">
+        </div>
+        <div class="content__text">
+            <div class="content__text__title">
+                <h1>Improve your front-end skills by building projects</h1>
+            </div>
+            <div class="content__text__text">
+                Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
